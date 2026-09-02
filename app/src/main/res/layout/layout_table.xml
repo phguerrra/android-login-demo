@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    android:stretchColumns="*">
+
+    <TableRow>
+
+        <TextView
+            android:text="Nome"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:padding="10dp" />
+
+        <TextView
+            android:text="Idade"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:padding="10dp" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:text="kkkkkkkk"
+            android:padding="10dp" />
+
+        <TextView
+            android:text="22"
+            android:padding="10dp" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:text="Pedro guerra"
+            android:padding="10dp" />
+
+        <TextView
+            android:text="25"
+            android:padding="10dp" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:text="gb"
+            android:padding="10dp" />
+
+        <TextView
+            android:text="21"
+            android:padding="10dp" />
+
+    </TableRow>
+
+</TableLayout>

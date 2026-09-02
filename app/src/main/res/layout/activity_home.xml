@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp">
+
+    <TextView
+        android:id="@+id/txtLoginRealizado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login realizado!"
+        android:textSize="25sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="100dp" />
+
+    <Button
+        android:id="@+id/btnTelaLinear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tela Linear"
+        app:layout_constraintTop_toBottomOf="@id/txtLoginRealizado"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="40dp" />
+
+    <Button
+        android:id="@+id/btnTelaRelative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tela Relative"
+        app:layout_constraintTop_toBottomOf="@id/btnTelaLinear"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="15dp" />
+
+    <Button
+        android:id="@+id/btnTelaTable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tela Table"
+        app:layout_constraintTop_toBottomOf="@id/btnTelaRelative"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="15dp" />
+
+    <Button
+        android:id="@+id/btnTelaConstraint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tela Constraint"
+        app:layout_constraintTop_toBottomOf="@id/btnTelaTable"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="15dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
